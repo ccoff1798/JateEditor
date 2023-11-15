@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start:dev": "cd server && npm run server",
-    "start": "webpack --watchAll",
+    "start": "cd server && npm run server",
     "server": "webpack-dev-server",
     "build": "cd client && npm run build",
     "install": "npm run build",
